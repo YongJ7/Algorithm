@@ -1,27 +1,34 @@
 #include <iostream>
 #include <unordered_map>
+#include <vector>
 using namespace std;
+unordered_map<string, int> arr;
+vector<string> v;
+
 int main()
 {
 	cin.tie(0);
 	cin.sync_with_stdio(0);
-
-	unordered_map<string, int> arr;
-	int N, M, cnt = 0;
-	cin >> N >> M;
-	//scanf("%d,%d", &N, &M);
 	
+	int N, cnt = 0;
+	string s;
+	cin >> N;
 	for (int i = 0; i < N; i++) {
-		string s;
 		cin >> s;
-		arr[s] = 0;
+		arr.insert({ s,i });
+	}
+	for (int i = 0; i < N; i++) {
+		cin >> s;
+		v.push_back(s);
 	}
 
-	for (int i = 0; i < M; i++) {
-		string s;
-		cin >> s;
-		if (arr.find(s) != arr.end()) cnt++;
+	for (int i = 0; i < N; i++) {
+		for (int j = i + 1; j < N; j++) {
+			if (arr[v[i]] > arr[v[j]]) {
+				cnt++;
+				break;
+			}
+		}
 	}
 	cout << cnt;
-	//printf("%d", cnt);
 }
