@@ -18,23 +18,32 @@
 첫째 줄에 김지민이 K개의 글자를 가르칠 때, 학생들이 읽을 수 있는 단어 개수의 최댓값을 출력한다.
 
 ## 예제입력1
+```
 3 6
 antarctica
 antahellotica
 antacartica
+```
 
 ## 예제출력1
+```
 2
+```
 
 ## 예제입력2
+```
 2 3
 antaxxxxxxxtica
 antarctica
+```
 
 ## 예제출력2
+```
 0
+```
 
 ## 예제입력3
+```
 9 8
 antabtica
 antaxtica
@@ -45,6 +54,9 @@ antagtica
 antahtica
 antajtica
 antaktica
+```
 
 ## 예제출력3
+```
 3
+```
