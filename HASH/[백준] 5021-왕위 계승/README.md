@@ -33,6 +33,7 @@
 
 
 ## 예제입력1
+```
 9 2  
 edwardi  
 charlesi edwardi diana  
@@ -46,11 +47,15 @@ henrii edwardii roxane
 charlesii elizabeth henrii  
 charlesii  
 matthew  
+```
 
 ## 예제출력1
+```
 matthew
+```
 
 ## 예제입력2
+```
 4 5  
 andrew  
 betsy andrew flora  
@@ -62,7 +67,9 @@ dora
 elena  
 flora  
 gloria  
+```
 
 ## 예제출력2
+```
 elena
-
+```
