@@ -21,6 +21,7 @@
 
 
 ## 예제입력1
+```
 5 11  
 baekjoononlinejudge  
 startlink  
@@ -38,7 +39,10 @@ codinghs
 sondaycoding  
 startrink  
 icerink  
+```
 
 ## 예제출력1
+```
 4
+```
 
