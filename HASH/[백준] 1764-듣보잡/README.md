@@ -15,6 +15,7 @@
 
 
 ## 예제입력1
+```
 3 4
 ohhenrie
 charlie
@@ -23,9 +24,12 @@ obama
 baesangwook
 ohhenrie
 clinton
+```
 
 ## 예제출력1
+```
 2
 baesangwook
 ohhenrie
+```
 
