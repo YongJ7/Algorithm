@@ -23,6 +23,7 @@
 
 
 ## 예제입력1
+```
 2  
 3  
 hat headgear  
@@ -32,8 +33,10 @@ turban headgear
 mask face  
 sunglasses face  
 makeup face  
+```
 
 ## 예제출력1
+```
 5  
 3
-
+```
